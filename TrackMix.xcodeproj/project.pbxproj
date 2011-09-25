@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD59B561142EDA3700EEC7E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD59B560142EDA3700EEC7E2 /* Cocoa.framework */; };
+		AD59B56B142EDA3700EEC7E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD59B569142EDA3700EEC7E2 /* InfoPlist.strings */; };
+		AD59B56D142EDA3800EEC7E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD59B56C142EDA3800EEC7E2 /* main.m */; };
+		AD59B571142EDA3800EEC7E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AD59B56F142EDA3800EEC7E2 /* Credits.rtf */; };
+		AD59B574142EDA3800EEC7E2 /* TrackMixAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD59B573142EDA3800EEC7E2 /* TrackMixAppDelegate.m */; };
+		AD59B577142EDA3800EEC7E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD59B575142EDA3800EEC7E2 /* MainMenu.xib */; };
+		AD59B57F142EDA3800EEC7E2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD59B57E142EDA3800EEC7E2 /* SenTestingKit.framework */; };
+		AD59B580142EDA3800EEC7E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD59B560142EDA3700EEC7E2 /* Cocoa.framework */; };
+		AD59B588142EDA3800EEC7E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD59B586142EDA3800EEC7E2 /* InfoPlist.strings */; };
+		AD59B58A142EDA3800EEC7E2 /* TrackMixTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AD59B589142EDA3800EEC7E2 /* TrackMixTests.h */; };
+		AD59B58C142EDA3800EEC7E2 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD59B58B142EDA3800EEC7E2 /* TrackMixTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD59B581142EDA3800EEC7E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD59B553142EDA3700EEC7E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD59B55B142EDA3700EEC7E2;
+			remoteInfo = TrackMix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD59B55C142EDA3700EEC7E2 /* TrackMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD59B560142EDA3700EEC7E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AD59B563142EDA3700EEC7E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AD59B564142EDA3700EEC7E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AD59B565142EDA3700EEC7E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD59B568142EDA3700EEC7E2 /* TrackMix-Info.plist */ = {isa = PBXFileReference; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
+		AD59B56A142EDA3700EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD59B56C142EDA3800EEC7E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD59B56E142EDA3800EEC7E2 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
+		AD59B570142EDA3800EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AD59B572142EDA3800EEC7E2 /* TrackMixAppDelegate.h */ = {isa = PBXFileReference; path = TrackMixAppDelegate.h; sourceTree = "<group>"; };
+		AD59B573142EDA3800EEC7E2 /* TrackMixAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixAppDelegate.m; sourceTree = "<group>"; };
+		AD59B576142EDA3800EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AD59B57D142EDA3800EEC7E2 /* TrackMixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD59B57E142EDA3800EEC7E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD59B585142EDA3800EEC7E2 /* TrackMixTests-Info.plist */ = {isa = PBXFileReference; path = "TrackMixTests-Info.plist"; sourceTree = "<group>"; };
+		AD59B587142EDA3800EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD59B589142EDA3800EEC7E2 /* TrackMixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMixTests.h; sourceTree = "<group>"; };
+		AD59B58B142EDA3800EEC7E2 /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD59B559142EDA3700EEC7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD59B561142EDA3700EEC7E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD59B579142EDA3800EEC7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD59B57F142EDA3800EEC7E2 /* SenTestingKit.framework in Frameworks */,
+				AD59B580142EDA3800EEC7E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD59B551142EDA3700EEC7E2 = {
+			isa = PBXGroup;
+			children = (
+				AD59B566142EDA3700EEC7E2 /* TrackMix */,
+				AD59B583142EDA3800EEC7E2 /* TrackMixTests */,
+				AD59B55F142EDA3700EEC7E2 /* Frameworks */,
+				AD59B55D142EDA3700EEC7E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD59B55D142EDA3700EEC7E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B55C142EDA3700EEC7E2 /* TrackMix.app */,
+				AD59B57D142EDA3800EEC7E2 /* TrackMixTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD59B55F142EDA3700EEC7E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B560142EDA3700EEC7E2 /* Cocoa.framework */,
+				AD59B57E142EDA3800EEC7E2 /* SenTestingKit.framework */,
+				AD59B562142EDA3700EEC7E2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD59B562142EDA3700EEC7E2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B563142EDA3700EEC7E2 /* AppKit.framework */,
+				AD59B564142EDA3700EEC7E2 /* CoreData.framework */,
+				AD59B565142EDA3700EEC7E2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AD59B566142EDA3700EEC7E2 /* TrackMix */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B572142EDA3800EEC7E2 /* TrackMixAppDelegate.h */,
+				AD59B573142EDA3800EEC7E2 /* TrackMixAppDelegate.m */,
+				AD59B575142EDA3800EEC7E2 /* MainMenu.xib */,
+				AD59B567142EDA3700EEC7E2 /* Supporting Files */,
+			);
+			path = TrackMix;
+			sourceTree = "<group>";
+		};
+		AD59B567142EDA3700EEC7E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B568142EDA3700EEC7E2 /* TrackMix-Info.plist */,
+				AD59B569142EDA3700EEC7E2 /* InfoPlist.strings */,
+				AD59B56C142EDA3800EEC7E2 /* main.m */,
+				AD59B56E142EDA3800EEC7E2 /* TrackMix-Prefix.pch */,
+				AD59B56F142EDA3800EEC7E2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD59B583142EDA3800EEC7E2 /* TrackMixTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B589142EDA3800EEC7E2 /* TrackMixTests.h */,
+				AD59B58B142EDA3800EEC7E2 /* TrackMixTests.m */,
+				AD59B584142EDA3800EEC7E2 /* Supporting Files */,
+			);
+			path = TrackMixTests;
+			sourceTree = "<group>";
+		};
+		AD59B584142EDA3800EEC7E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B585142EDA3800EEC7E2 /* TrackMixTests-Info.plist */,
+				AD59B586142EDA3800EEC7E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD59B55B142EDA3700EEC7E2 /* TrackMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD59B58F142EDA3800EEC7E2 /* Build configuration list for PBXNativeTarget "TrackMix" */;
+			buildPhases = (
+				AD59B558142EDA3700EEC7E2 /* Sources */,
+				AD59B559142EDA3700EEC7E2 /* Frameworks */,
+				AD59B55A142EDA3700EEC7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMix;
+			productName = TrackMix;
+			productReference = AD59B55C142EDA3700EEC7E2 /* TrackMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD59B57C142EDA3800EEC7E2 /* TrackMixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD59B592142EDA3800EEC7E2 /* Build configuration list for PBXNativeTarget "TrackMixTests" */;
+			buildPhases = (
+				AD59B578142EDA3800EEC7E2 /* Sources */,
+				AD59B579142EDA3800EEC7E2 /* Frameworks */,
+				AD59B57A142EDA3800EEC7E2 /* Resources */,
+				AD59B57B142EDA3800EEC7E2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD59B582142EDA3800EEC7E2 /* PBXTargetDependency */,
+			);
+			name = TrackMixTests;
+			productName = TrackMixTests;
+			productReference = AD59B57D142EDA3800EEC7E2 /* TrackMixTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD59B553142EDA3700EEC7E2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AD59B556142EDA3700EEC7E2 /* Build configuration list for PBXProject "TrackMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD59B551142EDA3700EEC7E2;
+			productRefGroup = AD59B55D142EDA3700EEC7E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD59B55B142EDA3700EEC7E2 /* TrackMix */,
+				AD59B57C142EDA3800EEC7E2 /* TrackMixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD59B55A142EDA3700EEC7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD59B56B142EDA3700EEC7E2 /* InfoPlist.strings in Resources */,
+				AD59B571142EDA3800EEC7E2 /* Credits.rtf in Resources */,
+				AD59B577142EDA3800EEC7E2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD59B57A142EDA3800EEC7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD59B588142EDA3800EEC7E2 /* InfoPlist.strings in Resources */,
+				AD59B58A142EDA3800EEC7E2 /* TrackMixTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD59B57B142EDA3800EEC7E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD59B558142EDA3700EEC7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD59B56D142EDA3800EEC7E2 /* main.m in Sources */,
+				AD59B574142EDA3800EEC7E2 /* TrackMixAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD59B578142EDA3800EEC7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD59B58C142EDA3800EEC7E2 /* TrackMixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD59B582142EDA3800EEC7E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD59B55B142EDA3700EEC7E2 /* TrackMix */;
+			targetProxy = AD59B581142EDA3800EEC7E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD59B569142EDA3700EEC7E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD59B56A142EDA3700EEC7E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD59B56F142EDA3800EEC7E2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD59B570142EDA3800EEC7E2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AD59B575142EDA3800EEC7E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD59B576142EDA3800EEC7E2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AD59B586142EDA3800EEC7E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD59B587142EDA3800EEC7E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD59B58D142EDA3800EEC7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD59B58E142EDA3800EEC7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD59B590142EDA3800EEC7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix/TrackMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD59B591142EDA3800EEC7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix/TrackMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD59B593142EDA3800EEC7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackMix.app/Contents/MacOS/TrackMix";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMixTests/TrackMixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AD59B594142EDA3800EEC7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackMix.app/Contents/MacOS/TrackMix";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMixTests/TrackMixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD59B556142EDA3700EEC7E2 /* Build configuration list for PBXProject "TrackMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD59B58D142EDA3800EEC7E2 /* Debug */,
+				AD59B58E142EDA3800EEC7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD59B58F142EDA3800EEC7E2 /* Build configuration list for PBXNativeTarget "TrackMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD59B590142EDA3800EEC7E2 /* Debug */,
+				AD59B591142EDA3800EEC7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD59B592142EDA3800EEC7E2 /* Build configuration list for PBXNativeTarget "TrackMixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD59B593142EDA3800EEC7E2 /* Debug */,
+				AD59B594142EDA3800EEC7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD59B553142EDA3700EEC7E2 /* Project object */;
+}
