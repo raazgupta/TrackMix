@@ -18,6 +18,7 @@
 		AD59B588142EDA3800EEC7E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD59B586142EDA3800EEC7E2 /* InfoPlist.strings */; };
 		AD59B58A142EDA3800EEC7E2 /* TrackMixTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AD59B589142EDA3800EEC7E2 /* TrackMixTests.h */; };
 		AD59B58C142EDA3800EEC7E2 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD59B58B142EDA3800EEC7E2 /* TrackMixTests.m */; };
+		AD59B597142EF7FB00EEC7E2 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = AD59B596142EF7FB00EEC7E2 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +37,22 @@
 		AD59B563142EDA3700EEC7E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AD59B564142EDA3700EEC7E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AD59B565142EDA3700EEC7E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AD59B568142EDA3700EEC7E2 /* TrackMix-Info.plist */ = {isa = PBXFileReference; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
+		AD59B568142EDA3700EEC7E2 /* TrackMix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
 		AD59B56A142EDA3700EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD59B56C142EDA3800EEC7E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AD59B56E142EDA3800EEC7E2 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
+		AD59B56E142EDA3800EEC7E2 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
 		AD59B570142EDA3800EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		AD59B572142EDA3800EEC7E2 /* TrackMixAppDelegate.h */ = {isa = PBXFileReference; path = TrackMixAppDelegate.h; sourceTree = "<group>"; };
+		AD59B572142EDA3800EEC7E2 /* TrackMixAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMixAppDelegate.h; sourceTree = "<group>"; };
 		AD59B573142EDA3800EEC7E2 /* TrackMixAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixAppDelegate.m; sourceTree = "<group>"; };
 		AD59B576142EDA3800EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AD59B57D142EDA3800EEC7E2 /* TrackMixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD59B57E142EDA3800EEC7E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AD59B585142EDA3800EEC7E2 /* TrackMixTests-Info.plist */ = {isa = PBXFileReference; path = "TrackMixTests-Info.plist"; sourceTree = "<group>"; };
+		AD59B585142EDA3800EEC7E2 /* TrackMixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMixTests-Info.plist"; sourceTree = "<group>"; };
 		AD59B587142EDA3800EEC7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD59B589142EDA3800EEC7E2 /* TrackMixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackMixTests.h; sourceTree = "<group>"; };
 		AD59B58B142EDA3800EEC7E2 /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		AD59B595142EF7FB00EEC7E2 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		AD59B596142EF7FB00EEC7E2 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		AD59B551142EDA3700EEC7E2 = {
 			isa = PBXGroup;
 			children = (
+				AD59B595142EF7FB00EEC7E2 /* Track.h */,
+				AD59B596142EF7FB00EEC7E2 /* Track.m */,
 				AD59B566142EDA3700EEC7E2 /* TrackMix */,
 				AD59B583142EDA3800EEC7E2 /* TrackMixTests */,
 				AD59B55F142EDA3700EEC7E2 /* Frameworks */,
@@ -261,6 +266,7 @@
 			files = (
 				AD59B56D142EDA3800EEC7E2 /* main.m in Sources */,
 				AD59B574142EDA3800EEC7E2 /* TrackMixAppDelegate.m in Sources */,
+				AD59B597142EF7FB00EEC7E2 /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
